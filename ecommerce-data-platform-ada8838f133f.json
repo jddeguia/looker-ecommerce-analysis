@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ecommerce-data-platform",
+  "private_key_id": "ada8838f133f718138a0ce68ae895b3ccdac44cc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD4KRnGliChCmdF\nsgHQepObxvkJmbz9DCYrQbdHfMotCaaHg7XU2wC+DinkKCohTi3LmSmM0eUBVxct\nQevLeyv3hQ1LL1w4u0sZNafrdNZx6xNYVoGPIbntA1IeJpxIliVdbqf9rPVaiMcQ\niiAIjO05liornRtoeWyxN5poIMbAn8R8YP0LtL7CTomdwnhewvynlHVMLQ2gAjF6\nD6EsmyhApQ9A/1UzyD8RRKTkiF73So5eV3uCaQuPNWJQid5ys2fonx5tyoVkVPYT\nedc/QGARWdNiPnEhiew7n33nCznaP2LJgyAkGv0HktNNn5lBatJOjk8DBTl/FFKb\nY+R4sh8/AgMBAAECggEADLLBtGUzNzpajXjt2daj3flA/gpFXudzvovmznwmtkZD\npLSLJeCs+Yys/RVHDpw7AKuOMjv9TWPA9lpkr+1WExzWUM4UGH0Q+zHBLW21mW+v\ndjo69/GAW43rckqEfbxdHhpO806Z4W+VTBXdTMK1UtiJwOCRqfdoperT9lcTBIEu\nl7BkK2p9BkQxkiQRbqxTOuQrCmkn5cjbZX/NvBWJ5yhEO/N1ohbzs2yk9JPWta13\n5OFX6kCM5WNOeOtER3ULNDjSO/PTTXqR31sroU6EzzdnoWdWt3RYpEsvwNmwWkhX\nWJjmQJqXC+jhmRq6Xu/9MChF1tOKBhhFHW9P11kyUQKBgQD8eBbbhNijRp7/0ped\nSgeDxA+uj3V1Hr3RzH3LomFfhfraPVQj6SKb8RK4X1Dz9TDhZT9GggaWYBsCLd9p\n5/OYG0YdGAx697RaMUQQpxbP5XZA+rgVRLH6OLBPIaZAzm4k0HmcaA08JnNvnSEV\n0Id68gWj5nMT5X+cYXqv6lUeEQKBgQD7oZXoSbNsdV8DkMvY7NNzJZjbwycaK3tS\nya9b8RvShg4Q0D18+iRWHCkxPvaCNrjMDeDqaW200Qn5NuCQWaOhcdD5VjIhrypy\n5UxpPAyLudLKCAc1XajMmFdXr31is0nYtwYqzOX4Q0LFhJMqMGScPtdfkUNW0+tD\nZeMnTJhYTwKBgQDJz6jd0sRlR9djQVCmj32QS5IJhG1ssKUlZmQL+gICHJQYDbwL\ndJmQs9S2AqMwT4fCNG+vCdMAM1SDmm2jN6GVrf+O1CFtzkGhcw4ojZgDmTW83W12\nutHV5aixqIE//oM29Fqxts8VjNrrllvTFzyk/3+Ys2a7udEXDSjII/XkMQKBgQDZ\nFUb5lhOnnv5wWguywmWNckMUXKEwT5DeFEcnv7NsBOC/mpdhaX/Nlg/nf1U1czYs\nPFDsijXuB2VeTfygK+Uh08ogQT+Qlci+RJmONBLyvEZgq1pkrL+Cem7no+s9KkWs\nJAG7DPfdHVHOixhXDlbOANzXgr+gecT+aTj133uSuwKBgDuadkvna6wE4YQR6ff1\nj3hYb2ORh4O7nz0OIALkLSIGlwhvqBLAW10suOaj/uXydJKDOYi3hjYUXXr78/UH\nRkHdMegbIFqGcFciiUIpx/15hjF0KPGl7trB/Z5BdAWP4kbwpJuesKanCSHR02o/\nEp/Jau7UZJ2v88IbPqsStwS7\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-bigquery-account@ecommerce-data-platform.iam.gserviceaccount.com",
+  "client_id": "103212051235370487596",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-bigquery-account%40ecommerce-data-platform.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
