@@ -1,0 +1,13 @@
+version: 2
+sources:
+- name: ecommerce-data-platform
+  database: ecommerce-data-platform
+  schema: ecommerce_table_source
+  tables:
+  - name: distribution_centers_raw
+  - name: events_raw
+  - name: inventory_items_raw
+  - name: order_items_raw
+  - name: orders_raw
+  - name: products_raw
+  - name: users_raw
