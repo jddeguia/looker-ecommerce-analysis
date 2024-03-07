@@ -1,0 +1,50 @@
+version: 2
+
+models:
+
+  - name: mart_dim_user_engagement_metrics
+    description: >
+      Table containing user engagement metrics such as total sessions, impressions, transactions, etc.
+    
+    columns:
+      - name: session_created_date
+        description: > 
+          The date when the session was created.
+        test:
+          - not_null
+      - name: traffic_source
+        description: > 
+          The source of traffic for the session.
+      - name: state
+        description: > 
+          The state where the traffic is coming from
+      - name: category
+        description: > 
+          The product category
+      - name: department
+        description: > 
+          The product department
+      - name: brand
+        description: > 
+          The product brand
+      - name: total_sessions
+        description: > 
+          The total number of sessions.
+      - name: total_home_impression
+        description: > 
+          The total number of home impressions.
+      - name: total_product_impression
+        description: > 
+          The total number of product impressions.
+      - name: total_cancelled_transaction
+        description: > 
+          The total number of cancelled transactions.
+      - name: total_purchased_transaction
+        description: > 
+          The total number of purchased transactions.
+      - name: total_add_to_cart
+        description: > 
+          The total number of items added to cart.
+      - name: total_department_impression
+        description: > 
+          The total number of department impressions.

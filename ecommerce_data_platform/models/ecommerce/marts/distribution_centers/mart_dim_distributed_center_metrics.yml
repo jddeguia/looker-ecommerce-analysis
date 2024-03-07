@@ -1,0 +1,36 @@
+version: 2
+
+models:
+
+  - name: mart_distribution_center_metrics
+    description: >
+      Table containing distribution center metrics such as total sold products, total active products, selling rate, total sales, and total cost.
+    config:
+      materialized: table
+
+    columns:
+      - name: created_date
+        description: > 
+          The date when the data was created.
+      - name: distribution_center_name
+        description: > 
+          The name of the distribution center.
+      - name: total_sold_products
+        description: > 
+          The total number of sold products.
+      - name: total_active_products
+        description: > 
+          The total number of active products.
+      - name: selling_rate
+        description: > 
+          The selling rate, calculated as the ratio of sold products to active products.
+      - name: total_sales
+        description: > 
+          The total sales amount.
+      - name: total_cost
+        description: > 
+          The total cost amount.
+      - name: margin
+        description: > 
+          The margin, calculated as the ratio of (total sales - total cost) to total sales.
+  

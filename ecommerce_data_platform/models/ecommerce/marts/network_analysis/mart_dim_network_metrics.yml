@@ -1,0 +1,46 @@
+version: 2
+
+models:
+
+  - name: mart_dim_network_metrics
+    description: >
+      Table containing network summary metrics such as total shipped, returned, and delivered products, completion rate, return rate, etc.
+    config:
+      materialized: table
+
+    columns:
+      - name: order_created_date
+        description: > 
+          The date when the order was created.
+        test:
+          - not_null
+      - name: distribution_center_name
+        description: > 
+          The name of the distribution center.
+      - name: destination_country
+        description: > 
+          The country of destination.
+      - name: total_shipped_products
+        description: > 
+          The total number of shipped products.
+      - name: total_returned_products
+        description: > 
+          The total number of returned products.
+      - name: total_delivered_products
+        description: > 
+          The total number of delivered products.
+      - name: completion_rate
+        description: > 
+          The completion rate, calculated as the ratio of completed shipments to total shipments.
+      - name: return_rate
+        description: > 
+          The return rate, calculated as the ratio of returned shipments to total shipments.
+      - name: pending_delivered_products_rate
+        description: > 
+          The rate of pending delivered products, calculated as the ratio of pending delivered products to total shipments.
+      - name: sla_delivery_performance_rate
+        description: > 
+          The SLA delivery performance rate, calculated as the ratio of shipments meeting delivery SLA to total completed shipments.
+      - name: sla_return_performance_rate
+        description: > 
+          The SLA return performance rate, calculated as the ratio of shipments meeting return SLA to total returned shipments.
