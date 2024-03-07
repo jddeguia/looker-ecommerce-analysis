@@ -5,9 +5,6 @@ models:
   - name: mart_dim_network_metrics
     description: >
       Table containing network summary metrics such as total shipped, returned, and delivered products, completion rate, return rate, etc.
-    config:
-      materialized: table
-
     columns:
       - name: order_created_date
         description: > 

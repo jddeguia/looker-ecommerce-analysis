@@ -5,7 +5,6 @@ models:
   - name: mart_dim_user_engagement_metrics
     description: >
       Table containing user engagement metrics such as total sessions, impressions, transactions, etc.
-    
     columns:
       - name: session_created_date
         description: > 
