@@ -1,0 +1,44 @@
+version: 2
+
+models:
+
+  - name: mart_fct_cleaned_mobile_events
+    description: >
+      Table containing user interaction events data such as user details, session information, and event attributes.
+    columns:
+      - name: user_id
+        description: >
+          The identifier for the user.
+      - name: sequence_number
+        description: >
+          The sequence number of the event within the session.
+      - name: session_id
+        description: >
+          The identifier for the session during which the event occurred.
+      - name: created_at
+        description: >
+          The date and time when the event was created.
+      - name: state
+        description: >
+          The state of the user (e.g., logged in, logged out).
+      - name: browser
+        description: >
+          The browser used by the user.
+      - name: traffic_source
+        description: >
+          The source of the traffic (e.g., direct, organic search, referral).
+      - name: event_type
+        description: >
+          The type of event (e.g., page view, click, purchase).
+      - name: department
+        description: >
+          The department related to the event (if applicable).
+      - name: category
+        description: >
+          The category related to the event (if applicable).
+      - name: brand
+        description: >
+          The brand related to the event (if applicable).
+      - name: product_id
+        description: >
+          The identifier for the product related to the event (if applicable).

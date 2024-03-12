@@ -2,15 +2,7 @@
 
 {{
     config(
-        materialized='incremental',
-        unique_key=['order_id','user_id'],
-        cluster_by = ["shipment_status"],
-        incremental_strategy = 'merge',
-        partition_by={
-            "field": "order_created_at",
-            "data_type": "timestamp",
-            "granularity": "day"
-        } 
+      materialized='table'
     )
 }}
 
@@ -79,7 +71,7 @@ add_continent AS (
     FROM active_shipments
     INNER JOIN parcel_destination_info USING (user_id)
     INNER JOIN product_info USING (product_id)
-    {%- if is_incremental() or target.name == 'dev' %}
+    {%- if is_incremental() %}
     WHERE DATE(created_at) BETWEEN DATE('{{ var("from_date") }}') AND DATE('{{ var("to_date") }}')
     {%- endif %}
 ),
