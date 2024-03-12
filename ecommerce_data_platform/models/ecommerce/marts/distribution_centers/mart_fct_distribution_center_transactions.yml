@@ -1,0 +1,47 @@
+version: 2
+
+models:
+
+  - name: mart_fct_distribution_center_transactions
+    description: >
+      Table containing inventory metrics such as product information, sales, and costs.
+    columns:
+      - name: inventory_item_id
+        description: > 
+          The unique identifier for each inventory item.
+      - name: product_name
+        description: > 
+          The name of the product.
+      - name: product_brand
+        description: > 
+          The brand of the product.
+      - name: product_category
+        description: > 
+          The category of the product.
+      - name: product_retail_price
+        description: > 
+          The retail price of the product.
+      - name: product_department
+        description: > 
+          The department to which the product belongs.
+      - name: product_sku
+        description: > 
+          The SKU (Stock Keeping Unit) of the product.
+      - name: created_at
+        description: > 
+          The date and time when the data was created.
+      - name: sold_at
+        description: > 
+          The date and time when the product was sold.
+      - name: cost
+        description: > 
+          The cost of the product.
+      - name: distribution_center_name
+        description: > 
+          The name of the distribution center.
+      - name: latitude
+        description: > 
+          The latitude coordinate of the distribution center.
+      - name: longitude
+        description: > 
+          The longitude coordinate of the distribution center.

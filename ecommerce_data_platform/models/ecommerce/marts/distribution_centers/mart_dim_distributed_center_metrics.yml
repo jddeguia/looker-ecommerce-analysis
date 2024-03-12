@@ -2,7 +2,7 @@ version: 2
 
 models:
 
-  - name: mart_distribution_center_metrics
+  - name: mart_dim_distribution_center_metrics
     description: >
       Table containing distribution center metrics such as total sold products, total active products, selling rate, total sales, and total cost.
     columns:
