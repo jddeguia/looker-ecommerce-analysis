@@ -2,15 +2,7 @@
 
 {{
     config(
-        materialized='incremental',
-        unique_key=['user_id','order_id'],
-        cluster_by = ["status"],
-        incremental_strategy = 'merge',
-        partition_by={
-            "field": "created_at",
-            "data_type": "timestamp",
-            "granularity": "day"
-        } 
+      materialized='table'
     )
 }}
 
